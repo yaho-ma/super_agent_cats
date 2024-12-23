@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "b9ef77d1-a370-466b-9cd6-58533c071644",
+		"name": "Cat Villain Agency Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38380717"
+	},
+	"item": [
+		{
+			"name": "create one cat",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"name\": \"Fedir the great\",\r\n  \"years_of_experience\": 11,\r\n  \"breed\": \"Burmese\",\r\n  \"salary\": 11.77\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8018/cats",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8018",
+					"path": [
+						"cats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all cats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8018/cats",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8018",
+					"path": [
+						"cats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
