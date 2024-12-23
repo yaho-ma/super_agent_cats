@@ -11,6 +11,7 @@ class CatSchema(BaseModel):
     salary: float
 
 
+
 class UpdateSalaryRequest(BaseModel):
     salary: float
 
