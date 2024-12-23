@@ -9,10 +9,10 @@ class Cat(Base):
     __tablename__ = "cats"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String)
-    years_of_experience = Column(Integer)
-    breed = Column(String)
-    salary = Column(Float)
+    name = Column(String, nullable=False)
+    years_of_experience = Column(Integer, nullable=False, default=1)
+    breed = Column(String, nullable=False)
+    salary = Column(Float, nullable=False, default=1.0)
 
 
 class Target(Base):

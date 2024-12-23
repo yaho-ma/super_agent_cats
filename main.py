@@ -69,6 +69,8 @@ def remove_cat(cat_id: int, db: Session = Depends(get_database)):
     db.query(my_models.Cat).filter(my_models.Cat.id == cat_id).delete()
     db.commit()
 
+    return {"detail": f"Cat with ID {cat_id} was removed successfully."}
+
 
 @app.put("/cats/{cat_id}")
 def update_salary_for_cat(cat_id: int,
