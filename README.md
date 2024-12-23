@@ -36,3 +36,9 @@ for that install this program
 https://sqlitebrowser.org/
 
 
+
+The Postman collection for this API is available here:
+
+- **Postman Collection File**: [Download the Postman Collection](https://github.com/yaho-ma/super_agent_cats/blob/master/Cat%20Villain%20Agency%20Collection.postman_collection.json)
+
+
