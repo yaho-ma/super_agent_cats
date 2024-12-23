@@ -21,7 +21,7 @@ pip install fastapi[all]
 
 SQLAlchemy
 ```
-pip install pip install SQLAlchemy
+pip install SQLAlchemy
 ```
 
 ALEMBIC: (if you want to do the database migrations)
